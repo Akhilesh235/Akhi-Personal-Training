@@ -21,15 +21,16 @@ namespace Akhi_Personal_Training
             //satement 2 will use the condition
             // statement 3 will use the increamental part
 
-            int x = 10;
-            int y = 14;
+            //when u put if and condition is true.. followed by continue, it will not print the condition and continue the loop
 
-            for(int z = 1; z < 50; z++)
-            {
-               if (z >= 25)
+            
+            for (int i = 0; i < 10; i++)
+            { 
+                if (i == 4)
                 {
-                    Console.WriteLine("z is greater than 25");
+                    break;
                 }
+                Console.WriteLine(i);
             }
 
 
