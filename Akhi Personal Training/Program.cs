@@ -10,46 +10,72 @@ namespace Akhi_Personal_Training
     {
         static void Main(string[] args)
         {
-           
-            //Multiplication Table
+            //Input 4 numbers and find average
             
-            int x;
-            int result;
+            double num1, num2, num3, num4;
+            double sum;
+            double average;
 
-            Console.WriteLine("Enter a number: ");
-            x = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Input First number");
+            num1 = Convert.ToDouble(Console.ReadLine());
 
-            result = x * 1;
-            Console.WriteLine("The table for the number {0} is : {0} x {1} = {2}" , x, 1, result);
+            Console.WriteLine("\nInput Second number");
+            num2 = Convert.ToDouble(Console.ReadLine());
 
-            result = x * 2;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 2, result);
+            Console.WriteLine("\nInput Third number");
+            num3 = Convert.ToDouble(Console.ReadLine());
 
-            result = x * 3;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 3, result);
+            Console.WriteLine("\nInput Fourth number");
+            num4 = Convert.ToDouble(Console.ReadLine());
 
-            result = x * 4;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 4, result);
+            sum = num1 + num2 + num3 + num4;
+            average = sum / 4;
 
-            result = x * 5;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 5, result);
-
-
-            result = x * 6;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 6, result);
-
-            result = x * 7;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 7, result);
-
-            result = x * 8;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 8, result);
+            Console.WriteLine("\nAverage of these 4 numbers are: " + average);
 
 
-            result = x * 9;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 9, result);
 
-            result = x * 10;
-            Console.WriteLine("                              : {0} x {1} = {2}", x, 10, result);
+
+
+            ////Multiplication Table
+
+            //int x;
+            //int result;
+
+            //Console.WriteLine("Enter a number: ");
+            //x = Int32.Parse(Console.ReadLine());
+
+            //result = x * 1;
+            //Console.WriteLine("The table for the number {0} is : {0} x {1} = {2}" , x, 1, result);
+
+            //result = x * 2;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 2, result);
+
+            //result = x * 3;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 3, result);
+
+            //result = x * 4;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 4, result);
+
+            //result = x * 5;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 5, result);
+
+
+            //result = x * 6;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 6, result);
+
+            //result = x * 7;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 7, result);
+
+            //result = x * 8;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 8, result);
+
+
+            //result = x * 9;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 9, result);
+
+            //result = x * 10;
+            //Console.WriteLine("                              : {0} x {1} = {2}", x, 10, result);
 
 
             // int num1, num2;
