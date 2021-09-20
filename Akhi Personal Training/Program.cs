@@ -21,18 +21,17 @@ namespace Akhi_Personal_Training
             //satement 2 will use the condition
             // statement 3 will use the increamental part
 
-            int x = 6;
-            int y = 10;
+            int x = 10;
+            int y = 14;
 
-            while (x > y)
-            {
-                Console.WriteLine("hello");
-                x++;
-            }
-
-            for (int z = 0; z < 10; z++)
+            for(int z = 1; z < 50; z++)
             {
                 Console.WriteLine(z);
+
+                if (z == 24)
+                {
+                    break;
+                }
             }
 
 
