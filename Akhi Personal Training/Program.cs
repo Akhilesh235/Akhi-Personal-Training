@@ -10,30 +10,72 @@ namespace Akhi_Personal_Training
     {
         static void Main(string[] args)
         {
-             int num1, num2;
+           
+            //Multiplication Table
+            
+            int x;
+            int result;
 
-            Console.WriteLine("\nInput the first number : ");
-            num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter a number: ");
+            x = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine("\nInput the second number : ");
-            num2 = int.Parse(Console.ReadLine());
+            result = x * 1;
+            Console.WriteLine("The table for the number {0} is : {0} x {1} = {2}" , x, 1, result);
 
-            //1 Add
-            int sum = num1 + num2;
-            Console.WriteLine("Sum of both numbers is: " + sum);
+            result = x * 2;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 2, result);
 
-            //2 subtract
-            int sub = num1 - num2;
-            Console.WriteLine("Subratction of both numbers is: " + sub);
+            result = x * 3;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 3, result);
 
-            //multiply
-            int multiply = num1 * num2;
-            Console.WriteLine("Multiplication of both numbers is: " + multiply);
+            result = x * 4;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 4, result);
 
-            //Division
-            int divide = num1 / num2;
-            int remainder = num1 % num2;
-            Console.WriteLine("Division of both numbers is: " + divide + "\nWith a remainder of: " + remainder);
+            result = x * 5;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 5, result);
+
+
+            result = x * 6;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 6, result);
+
+            result = x * 7;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 7, result);
+
+            result = x * 8;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 8, result);
+
+
+            result = x * 9;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 9, result);
+
+            result = x * 10;
+            Console.WriteLine("                              : {0} x {1} = {2}", x, 10, result);
+
+
+            // int num1, num2;
+
+            //Console.WriteLine("\nInput the first number : ");
+            //num1 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("\nInput the second number : ");
+            //num2 = int.Parse(Console.ReadLine());
+
+            ////1 Add
+            //int sum = num1 + num2;
+            //Console.WriteLine("Sum of both numbers is: " + sum);
+
+            ////2 subtract
+            //int sub = num1 - num2;
+            //Console.WriteLine("Subratction of both numbers is: " + sub);
+
+            ////multiply
+            //int multiply = num1 * num2;
+            //Console.WriteLine("Multiplication of both numbers is: " + multiply);
+
+            ////Division
+            //int divide = num1 / num2;
+            //int remainder = num1 % num2;
+            //Console.WriteLine("Division of both numbers is: " + divide + "\nWith a remainder of: " + remainder);
 
 
 
