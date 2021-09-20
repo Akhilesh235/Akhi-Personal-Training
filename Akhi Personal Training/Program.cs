@@ -16,47 +16,60 @@ namespace Akhi_Personal_Training
 
         static void Main(string[] args)
         {
-           // switch case and break conditional statements
-            int x;
-            Console.WriteLine("Input a number from 1 to 5: ");
-            x = Int32.Parse(Console.ReadLine());
+            // while condition
+            
+            int x = 6;
+            int y = 10;
 
-            switch (x)
-                
+            while (x < y)
             {
-                case 1:
-                    Console.WriteLine("today is Monday");
-                    break;
-
-                case 2:
-                    Console.WriteLine("today is Tuesday");
-                    break;
-
-                case 3:
-                    Console.WriteLine("today is Wednesday");
-                    break;
-
-                case 4:
-                    Console.WriteLine("today is Thursday");
-                    break;
-
-                case 5:
-                    Console.WriteLine("Today is Friday");
-                    break;
-
-                case 6:
-                    Console.WriteLine("today is Saturday");
-                    break;
-
-                case 7:
-                    Console.WriteLine("Today is sunday");
-                    break;
-
-                default:
-                    Console.WriteLine("!! Wrong Input!! Try again");
-                    break;
-
+                Console.WriteLine(x);
+                x++;
             }
+            
+            
+            
+            //// switch case and break conditional statements
+           // int x;
+           // Console.WriteLine("Input a number from 1 to 5: ");
+           // x = Int32.Parse(Console.ReadLine());
+
+           // switch (x)
+                
+           // {
+           //     case 1:
+           //         Console.WriteLine("today is Monday");
+           //         break;
+
+           //     case 2:
+           //         Console.WriteLine("today is Tuesday");
+           //         break;
+
+           //     case 3:
+           //         Console.WriteLine("today is Wednesday");
+           //         break;
+
+           //     case 4:
+           //         Console.WriteLine("today is Thursday");
+           //         break;
+
+           //     case 5:
+           //         Console.WriteLine("Today is Friday");
+           //         break;
+
+           //     case 6:
+           //         Console.WriteLine("today is Saturday");
+           //         break;
+
+           //     case 7:
+           //         Console.WriteLine("Today is sunday");
+           //         break;
+
+           //     default:
+           //         Console.WriteLine("!! Wrong Input!! Try again");
+           //         break;
+
+           // }
 
             //int x = 20;
             //if(x>100)
