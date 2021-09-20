@@ -25,23 +25,31 @@ namespace Akhi_Personal_Training
                 
             {
                 case 1:
-                    Console.WriteLine("x is 1");
+                    Console.WriteLine("today is Monday");
                     break;
 
                 case 2:
-                    Console.WriteLine("x is 2");
+                    Console.WriteLine("today is Tuesday");
                     break;
 
                 case 3:
-                    Console.WriteLine("x is 3");
+                    Console.WriteLine("today is Wednesday");
                     break;
 
                 case 4:
-                    Console.WriteLine("x is 4");
+                    Console.WriteLine("today is Thursday");
                     break;
 
                 case 5:
-                    Console.WriteLine("x is 5");
+                    Console.WriteLine("Today is Friday");
+                    break;
+
+                case 6:
+                    Console.WriteLine("today is Saturday");
+                    break;
+
+                case 7:
+                    Console.WriteLine("Today is sunday");
                     break;
 
                 default:
