@@ -16,12 +16,12 @@ namespace Akhi_Personal_Training
 
         static void Main(string[] args)
         {
-            // while condition
+            // while condition --> if the condition is not true, there will be no output
             
             int x = 6;
             int y = 10;
 
-            while (x < y)
+            while (x > y)
             {
                 Console.WriteLine(x);
                 x++;
