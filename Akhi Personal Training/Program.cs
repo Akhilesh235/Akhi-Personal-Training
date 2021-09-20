@@ -10,12 +10,23 @@ namespace Akhi_Personal_Training
     {
         static void Main(string[] args)
         {
-            //Star Question
+            //Star Question part 2
             
-            string x = "*";
+            for (int row = 6; row >= 1; --row)
+            {
+                for (int col = 1; col <= row; ++col)
+                {
+                    Console.WriteLine("*");
+                }
+            }
+            
+            
+            ////Star Question
+            
+            //string x = "*";
             
 
-            Console.WriteLine("{0} \n{0}(0} \n{0}{0}{0} \n{0}{0}{0}{0} \n{0}{0}{0}{0}{0}" , x);
+            //Console.WriteLine("{0} \n{0}(0} \n{0}{0}{0} \n{0}{0}{0}{0} \n{0}{0}{0}{0}{0}" , x);
             
             
             ////Take a number as input and display it four times in a row with spaces and then without spaces
