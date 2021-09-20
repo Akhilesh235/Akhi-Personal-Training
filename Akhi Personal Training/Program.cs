@@ -16,19 +16,50 @@ namespace Akhi_Personal_Training
 
         static void Main(string[] args)
         {
+            // for is similar to while, but u use 3 statements
+            // statement 1 will assign the value
+            //satement 2 will use the condition
+            // statement 3 will use the increamental part
 
-            //do while -- if condition is false, it will still print the do output.
-            
             int x = 6;
             int y = 10;
 
-            do
+            while (x > y)
             {
-                Console.WriteLine(x);
+                Console.WriteLine("hello");
                 x++;
             }
 
-            while (x < y);
+            for (int z = 0; z < 10; z++)
+            {
+                Console.WriteLine(z);
+            }
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            //do while -- if condition is false, it will still print the do output.
+            
+            //int x = 6;
+           
+
+            //int y = 10;
+           
+
+            //do
+            //{
+            //    Console.WriteLine(x);
+            //    x++;
+            //}
+
+            //while (x < y);
+        
 
             
             
