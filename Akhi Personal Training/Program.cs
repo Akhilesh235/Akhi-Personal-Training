@@ -10,23 +10,46 @@ namespace Akhi_Personal_Training
     {
         static void Main(string[] args)
         {
+
+            //convert from celsius degrees to Kelvin and Fahrenheit
+
+            double Celsius;
+            Console.WriteLine("Input Temp in Celsius : ");
+            Celsius = Convert.ToDouble(Console.ReadLine());
+
+
+            double Kelvin = Celsius + 273;
+            Console.WriteLine("The input temp in Kelvin is : {0}K ", Kelvin);
+
+            double Fahrenheit = ((Celsius + 18) / 10) + 32;
+            Console.WriteLine("The input temp in Fahrenheit is : {0} degF ", Fahrenheit);
+
+
+
+
+
+
+
+
             // takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit
 
-            int x;
-            Console.WriteLine("Input a digit: ");
-            x = Int32.Parse(Console.ReadLine());
+            //int x;
+            //Console.WriteLine("Input a digit: ");
+            //x = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine("{0}{0}{0} \n{0} {0} \n{0} {0} \n{0} {0} \n{0}{0}{0}" , x);
-            
-            
-            
-            
-            
-            
-            
-            
+            //Console.WriteLine("{0}{0}{0} \n{0} {0} \n{0} {0} \n{0} {0} \n{0}{0}{0}" , x);
+
+
+
+
+
+
+
+
+
+
             ////Star Question part 2
-            
+
             //for (int row = 6; row >= 1; --row)
             //{
             //    for (int col = 1; col <= row; ++col)
@@ -34,18 +57,18 @@ namespace Akhi_Personal_Training
             //        Console.WriteLine("*");
             //    }
             //}
-            
-            
+
+
             ////Star Question
-            
+
             //string x = "*";
-            
+
 
             //Console.WriteLine("{0} \n{0}(0} \n{0}{0}{0} \n{0}{0}{0}{0} \n{0}{0}{0}{0}{0}" , x);
-            
-            
+
+
             ////Take a number as input and display it four times in a row with spaces and then without spaces
-            
+
             //int x;
             //Console.WriteLine("Enter a digit : ");
             //x = Int32.Parse(Console.ReadLine());
