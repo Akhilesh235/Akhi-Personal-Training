@@ -6,23 +6,38 @@ using System.Threading.Tasks;
 
 namespace Akhi_Personal_Training
 {
-    class Program
+    public class Program
     {
+
         static void Main(string[] args)
         {
 
-            //convert from celsius degrees to Kelvin and Fahrenheit
 
-            double Celsius;
-            Console.WriteLine("Input Temp in Celsius : ");
-            Celsius = Convert.ToDouble(Console.ReadLine());
+            // Remove specified a character from a non-empty string using index of a character
+            Console.WriteLine(remove_char("Akhilesh", 1));
+            Console.WriteLine(remove_char("Akhilesh", 9));
+            Console.WriteLine(remove_char("Akhilesh", 0));
 
 
-            double Kelvin = Celsius + 273;
-            Console.WriteLine("The input temp in Kelvin is : {0}K ", Kelvin);
 
-            double Fahrenheit = ((Celsius + 18) / 10) + 32;
-            Console.WriteLine("The input temp in Fahrenheit is : {0} degF ", Fahrenheit);
+
+
+
+
+
+
+            ////convert from celsius degrees to Kelvin and Fahrenheit
+
+            //double Celsius;
+            //Console.WriteLine("Input Temp in Celsius : ");
+            //Celsius = Convert.ToDouble(Console.ReadLine());
+
+
+            //double Kelvin = Celsius + 273;
+            //Console.WriteLine("The input temp in Kelvin is : {0}K ", Kelvin);
+
+            //double Fahrenheit = ((Celsius + 18) / 10) + 32;
+            //Console.WriteLine("The input temp in Fahrenheit is : {0} degF ", Fahrenheit);
 
 
 
@@ -395,6 +410,11 @@ namespace Akhi_Personal_Training
 
             //Console.WriteLine(message);
             Console.Read();
+        }
+
+        public static string remove_char(string str, int n)
+        {
+            return str.Remove(n, 1);
         }
     }
 }
