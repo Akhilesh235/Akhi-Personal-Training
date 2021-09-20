@@ -10,28 +10,69 @@ namespace Akhi_Personal_Training
     {
         static void Main(string[] args)
         {
-            //Input 4 numbers and find average
+            //three numbers(x, y, z) as input and print the output of(x + y).z and x.y + y.z
+
+
+            int num1, num2, num3;
+            int sum;
+            int sum2;
+            int multiply;
+            int multiply2;
+            int multiply3;
+
+            Console.WriteLine("\nInput x: ");
+            num1 = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("\nInput y: ");
+            num2 = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("\nInput z: ");
+            num3 = Int32.Parse(Console.ReadLine());
+
+            sum = num1 + num2;
+            multiply = sum * num3;
             
-            double num1, num2, num3, num4;
-            double sum;
-            double average;
+            
+            multiply2 = num1 * num2;
+            multiply3 = num2 * num3;
+            sum2 = multiply2 + multiply3;
 
-            Console.WriteLine("Input First number");
-            num1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("\nThe result of (x+y).z is : {0} \n\nThe result of (x.y) + (y.z) is : {1} " , multiply, sum2 );
 
-            Console.WriteLine("\nInput Second number");
-            num2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("\nInput Third number");
-            num3 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("\nInput Fourth number");
-            num4 = Convert.ToDouble(Console.ReadLine());
 
-            sum = num1 + num2 + num3 + num4;
-            average = sum / 4;
 
-            Console.WriteLine("\nAverage of these 4 numbers are: " + average);
+
+
+
+
+
+
+
+
+            ////Input 4 numbers and find average
+
+            //double num1, num2, num3, num4;
+            //double sum;
+            //double average;
+
+            //Console.WriteLine("Input First number");
+            //num1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("\nInput Second number");
+            //num2 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("\nInput Third number");
+            //num3 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("\nInput Fourth number");
+            //num4 = Convert.ToDouble(Console.ReadLine());
+
+            //sum = num1 + num2 + num3 + num4;
+            //average = sum / 4;
+
+            //Console.WriteLine("\nAverage of these 4 numbers are: " + average);
 
 
 
