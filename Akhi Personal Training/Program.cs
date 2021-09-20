@@ -25,6 +25,7 @@ namespace Akhi_Personal_Training
             do
             {
                 Console.WriteLine(x);
+                x++;
             }
 
             while (x > y);
