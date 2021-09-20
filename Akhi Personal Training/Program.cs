@@ -26,11 +26,9 @@ namespace Akhi_Personal_Training
 
             for(int z = 1; z < 50; z++)
             {
-                Console.WriteLine(z);
-
-                if (z == 24)
+               if (z == 25)
                 {
-                    break;
+                    Console.WriteLine("z is 25");
                 }
             }
 
