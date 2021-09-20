@@ -10,31 +10,43 @@ namespace Akhi_Personal_Training
     {
         static void Main(string[] args)
         {
-            //Input Age and see whether Child, Adult or Senior Citizen
+            //Take a number as input and display it four times in a row with spaces and then without spaces
             
             int x;
-            Console.WriteLine("Input your age: ");
+            Console.WriteLine("Enter a digit : ");
             x = Int32.Parse(Console.ReadLine());
 
-            if (x >= 60)
-            {
-                Console.WriteLine("You are senior citizen");
-            }
+            Console.WriteLine("\n{0} {0} {0} {0} ", x);
 
-            else if (x >= 21)
-            {
-                Console.WriteLine("You are an adult");
-            }
+            Console.WriteLine("{0}{0}{0}{0} ", x);
 
-            else if (x < 21)
-            {
-                Console.WriteLine("You are a child");
-            } 
 
-            
-            
-            
-            
+
+            ////Input Age and see whether Child, Adult or Senior Citizen
+
+            //int x;
+            //Console.WriteLine("Input your age: ");
+            //x = Int32.Parse(Console.ReadLine());
+
+            //if (x >= 60)
+            //{
+            //    Console.WriteLine("You are senior citizen");
+            //}
+
+            //else if (x >= 21)
+            //{
+            //    Console.WriteLine("You are an adult");
+            //}
+
+            //else if (x < 21)
+            //{
+            //    Console.WriteLine("You are a child");
+            //} 
+
+
+
+
+
             //three numbers(x, y, z) as input and print the output of(x + y).z and x.y + y.z
 
 
@@ -56,8 +68,8 @@ namespace Akhi_Personal_Training
 
             //sum = num1 + num2;
             //multiply = sum * num3;
-            
-            
+
+
             //multiply2 = num1 * num2;
             //multiply3 = num2 * num3;
             //sum2 = multiply2 + multiply3;
