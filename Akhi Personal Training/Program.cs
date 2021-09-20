@@ -16,21 +16,51 @@ namespace Akhi_Personal_Training
 
         static void Main(string[] args)
         {
-            int x = 20;
-            if(x>100)
+           // switch case and break conditional statements
+            int x;
+            Console.WriteLine("Input a number from 1 to 5: ");
+            x = Int32.Parse(Console.ReadLine());
+
+            switch (x)
+                
             {
-                Console.WriteLine("x is greater than 100");
+                case 1:
+                    Console.WriteLine("x is 1");
+                    break;
+
+                case 2:
+                    Console.WriteLine("x is 2");
+                    break;
+
+                case 3:
+                    Console.WriteLine("x is 3");
+                    break;
+
+                case 4:
+                    Console.WriteLine("x is 4");
+                    break;
+
+                case 5:
+                    Console.WriteLine("x is 5");
+                    break;
+
             }
 
-            else if (x<25)
-            {
-                Console.WriteLine("x is less than 25");
-            }
+            //int x = 20;
+            //if(x>100)
+            //{
+            //    Console.WriteLine("x is greater than 100");
+            //}
 
-            else
-            {
-                Console.WriteLine("x is between 25 and 100");
-            }
+            //else if (x<25)
+            //{
+            //    Console.WriteLine("x is less than 25");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("x is between 25 and 100");
+            //}
 
             
             
