@@ -44,6 +44,10 @@ namespace Akhi_Personal_Training
                     Console.WriteLine("x is 5");
                     break;
 
+                default:
+                    Console.WriteLine("!! Wrong Input!! Try again");
+                    break;
+
             }
 
             //int x = 20;
