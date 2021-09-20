@@ -14,9 +14,9 @@ namespace Akhi_Personal_Training
 
 
             // Remove specified a character from a non-empty string using index of a character
-            Console.WriteLine(remove_char("Akhilesh", 1));
-            Console.WriteLine(remove_char("Akhilesh", 9));
-            Console.WriteLine(remove_char("Akhilesh", 0));
+            Console.WriteLine(remove_char("AkhileshDayal", 1));
+            Console.WriteLine(remove_char("AkhileshDayal", 9));
+            Console.WriteLine(remove_char("AkhileshDayal", 0));
 
 
 
@@ -409,7 +409,7 @@ namespace Akhi_Personal_Training
             //string message = "Hello World!";
 
             //Console.WriteLine(message);
-            Console.Read();
+            Console.ReadLine();
         }
 
         public static string remove_char(string str, int n)
