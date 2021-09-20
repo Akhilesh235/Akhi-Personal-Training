@@ -8,15 +8,25 @@ namespace Akhi_Personal_Training
 {
     public class Program
     {
+        public static string first_last (string ustr)
+        {
+            return ustr.Length > 1
+                ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
+        }
 
         static void Main(string[] args)
         {
+            //create a new string from a given string where the first and last characters will change their positions
+            Console.WriteLine(first_last("w3resource"));
+            Console.WriteLine(first_last("Python"));
+            Console.WriteLine(first_last("x"));
+
 
 
             // Remove specified a character from a non-empty string using index of a character
-            Console.WriteLine(remove_char("AkhileshDayal", 1));
-            Console.WriteLine(remove_char("AkhileshDayal", 9));
-            Console.WriteLine(remove_char("AkhileshDayal", 0));
+            //Console.WriteLine(remove_char("AkhileshDayal", 1));
+            //Console.WriteLine(remove_char("AkhileshDayal", 9));
+            //Console.WriteLine(remove_char("AkhileshDayal", 0));
 
 
 
@@ -412,9 +422,9 @@ namespace Akhi_Personal_Training
             Console.ReadLine();
         }
 
-        public static string remove_char(string str, int n)
-        {
-            return str.Remove(n, 1);
-        }
+        //public static string remove_char(string str, int n)
+        //{
+        //    return str.Remove(n, 1);
+        //}
     }
 }
