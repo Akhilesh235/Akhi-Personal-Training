@@ -10,15 +10,30 @@ namespace Akhi_Personal_Training
     {
         static void Main(string[] args)
         {
-            //Star Question part 2
+            // takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit
+
+            int x;
+            Console.WriteLine("Input a digit: ");
+            x = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("{0}{0}{0} \n{0} {0} \n{0} {0} \n{0} {0} \n{0}{0}{0}" , x);
             
-            for (int row = 6; row >= 1; --row)
-            {
-                for (int col = 1; col <= row; ++col)
-                {
-                    Console.WriteLine("*");
-                }
-            }
+            
+            
+            
+            
+            
+            
+            
+            ////Star Question part 2
+            
+            //for (int row = 6; row >= 1; --row)
+            //{
+            //    for (int col = 1; col <= row; ++col)
+            //    {
+            //        Console.WriteLine("*");
+            //    }
+            //}
             
             
             ////Star Question
