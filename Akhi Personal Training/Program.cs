@@ -16,16 +16,34 @@ namespace Akhi_Personal_Training
 
         static void Main(string[] args)
         {
-            int x = 50;
-            if (x > 100)
+            int x = 20;
+            if(x>100)
             {
-                Console.WriteLine("x is great than 100");
+                Console.WriteLine("x is greater than 100");
+            }
+
+            else if (x<25)
+            {
+                Console.WriteLine("x is less than 25");
             }
 
             else
             {
-                Console.WriteLine("x is less than 100");
+                Console.WriteLine("x is between 25 and 100");
             }
+
+            
+            
+            //int x = 50;
+            //if (x > 100)
+            //{
+            //    Console.WriteLine("x is great than 100");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("x is less than 100");
+            //}
 
 
             //create a new string from a given string where the first and last characters will change their positions
