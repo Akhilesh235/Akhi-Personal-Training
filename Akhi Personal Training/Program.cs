@@ -26,9 +26,9 @@ namespace Akhi_Personal_Training
 
             for(int z = 1; z < 50; z++)
             {
-               if (z == 25)
+               if (z >= 25)
                 {
-                    Console.WriteLine("z is 25");
+                    Console.WriteLine("z is greater than 25");
                 }
             }
 
