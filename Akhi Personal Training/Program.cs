@@ -16,16 +16,31 @@ namespace Akhi_Personal_Training
 
         static void Main(string[] args)
         {
-            // while condition --> if the condition is not true, there will be no output
+
+            //do while -- if condition is false, it will still print the do output.
             
             int x = 6;
             int y = 10;
 
-            while (x > y)
+            do
             {
                 Console.WriteLine(x);
-                x++;
             }
+
+            while (x > y);
+
+            
+            
+            //// while condition --> if the condition is not true, there will be no output
+            
+            //int x = 6;
+            //int y = 10;
+
+            //while (x > y)
+            //{
+            //    Console.WriteLine(x);
+            //    x++;
+            //}
             
             
             
