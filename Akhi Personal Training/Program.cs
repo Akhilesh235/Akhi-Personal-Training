@@ -28,7 +28,7 @@ namespace Akhi_Personal_Training
                 x++;
             }
 
-            while (x > y);
+            while (x < y);
 
             
             
