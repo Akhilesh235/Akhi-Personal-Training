@@ -10,15 +10,23 @@ namespace Akhi_Personal_Training
     {
         static void Main(string[] args)
         {
-            //Take a number as input and display it four times in a row with spaces and then without spaces
+            //Star Question
             
-            int x;
-            Console.WriteLine("Enter a digit : ");
-            x = Int32.Parse(Console.ReadLine());
+            string x = "*";
+            
 
-            Console.WriteLine("\n{0} {0} {0} {0} ", x);
+            Console.WriteLine("{0} \n{0}(0} \n{0}{0}{0} \n{0}{0}{0}{0} \n{0}{0}{0}{0}{0}" , x);
+            
+            
+            ////Take a number as input and display it four times in a row with spaces and then without spaces
+            
+            //int x;
+            //Console.WriteLine("Enter a digit : ");
+            //x = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine("{0}{0}{0}{0} ", x);
+            //Console.WriteLine("\n{0} {0} {0} {0} ", x);
+
+            //Console.WriteLine("{0}{0}{0}{0} ", x);
 
 
 
